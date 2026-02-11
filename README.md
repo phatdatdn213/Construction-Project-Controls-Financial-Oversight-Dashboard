@@ -1,52 +1,48 @@
-📌 Project Overview
-This project simulates a Project Controls & Operational Dashboard designed for a global professional services environment (e.g., Turner & Townsend). It integrates fragmented construction data into a unified visual narrative to enhance decision-making in project delivery, cost management, and document compliance.
+# 🏗️ Construction Project Controls & Operational Dashboard
 
-The dashboard addresses the core responsibilities of a Project Coordinator: tracking financial P&L, monitoring document approval workflows (Document Control), and ensuring project milestones are met across diverse sectors (Infrastructure, Real Estate, Energy).
+> **A Strategic Data Solution for Modern Project Coordination**
 
-🚀 Key Features & Analytics
-1. Financial Performance (Budget vs. Actual)
-Metric: Baseline Budget vs. Actual Expenditure.
+[![Tableau](https://img.shields.io/badge/Visualization-Tableau-blue.svg)](https://public.tableau.com/)
+[![Python](https://img.shields.io/badge/Data_Generation-Python-green.svg)](https://www.python.org/)
+[![Industry](https://img.shields.io/badge/Industry-Construction_Consultancy-orange.svg)](https://www.turnerandtownsend.com/)
 
-Visual: Bullet Graphs with color-coded Budget Health Status.
+---
 
-Insight: Identified cost variances and budget utilization rates to trigger immediate financial reconciliation for over-budget projects.
+## 📌 Executive Summary
+This repository contains an end-to-end analytics project designed to simulate the **Project Controls** and **Operational Excellence** standards at a global consultancy (e.g., **Turner & Townsend**). 
 
-2. Document Control Matrix (Compliance)
-Metric: Approval Rates for RFIs, Invoices, Submittals, and Contracts.
+The project transforms fragmented construction data into a "Single Source of Truth," enabling Project Coordinators to monitor multi-million dollar budgets, track document compliance, and manage project lifecycles with precision.
 
-Visual: Heatmap highlighting approval bottlenecks.
+---
 
-Insight: Streamlined the "smooth information flow" by pinpointing specific document types causing delays in the project lifecycle.
+## 🚀 Key Analytics Features
 
-3. Lifecycle Progression Tracking
-Metric: Project Stages (Pre-construction, Construction, Close-out).
+### 1. Financial Oversight (P/L & Variance)
+* **Bullet Graph Implementation:** Compares **Baseline Budget** vs. **Actual Expenditure**.
+* **Dynamic Alerts:** Automated color-coding for projects exceeding 100% budget utilization.
+* **Insight:** Enables proactive financial reconciliation and risk mitigation.
 
-Visual: Interactive progress markers scaled by budget intensity.
+### 2. Document Control Matrix
+* **Compliance Heatmap:** Tracks approval rates for RFIs, Invoices, and Payment Applications.
+* **Efficiency Tracking:** Identifies administrative bottlenecks to ensure "smooth information flow" and timely payments.
 
-Insight: Optimized resource allocation by prioritizing projects in the critical 'Close-out' phase.
+### 3. Lifecycle Progression
+* **Stage Analytics:** Visualizes project distribution from **Pre-construction** to **Close-out**.
+* **Resource Mapping:** Uses size-encoding to highlight capital-intensive projects.
 
-🛠 Tech Stack
-Data Generation: Python (Pandas, Numpy) to simulate complex construction datasets.
+---
 
-Data Visualization: Tableau (Tableau Story utilized for weekly progress reporting).
+## 🛠 Tech Stack & Methodology
+* **Python (Pandas/Numpy):** Synthesized a complex dataset of 10+ infrastructure projects and 500+ document records.
+* **Tableau:** Developed an interactive Dashboard and a 5-point **Data Story** for executive reporting.
+* **Data Modeling:** Established relational schemas between Project Masters and Document Logs.
 
-Analysis: Calculated Fields (Financial Variance, Compliance %), Data Modeling (1-to-Many Relationships).
+---
 
-📁 Project Structure
-data/: Contains simulated CSV files (tt_project_master.csv, tt_document_logs.csv).
-
-images/: High-resolution screenshots of the Dashboard and Story points.
-
-tableau/: The packaged Tableau Workbook (.twbx) for interactive review.
-
-reports/: Exported PDF of the Weekly Project Progress Report.
-
-📊 Business Impact
-Enhanced Visibility: Replaced manual Excel tracking with a real-time automated "Single Source of Truth."
-
-Risk Mitigation: Developed a proactive "Watchlist" to intervene in high-risk projects before budget overruns occur.
-
-Efficiency: Reduced reporting turnaround time by automating financial calculations and compliance monitoring.
-
-🔗 Live Demo
-[Insert your Tableau Public Link here]
+## 📂 Project Structure
+```text
+├── data/               # Simulated CSV datasets (Budget & Docs)
+├── images/             # Dashboard screenshots & Story points
+├── reports/            # PDF Export of the Weekly Progress Report
+├── src/                # Python script for data generation
+└── README.md           # Project documentation
