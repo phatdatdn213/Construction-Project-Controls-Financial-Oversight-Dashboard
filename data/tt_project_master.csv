@@ -1,0 +1,11 @@
+Project_ID,Project_Name,Sector,Project_Manager,Stage,Planned_Budget,Actual_Cost,Budget_Variance,Budget_Utilization_Rate
+TT-PRJ-1000,Global Tech HQ - Fit Out,Real Estate,John Smith,Close-out,3857000.0,3866700.0,9700.0,100.25
+TT-PRJ-1001,Solar Farm Infrastructure,Infrastructure,Maria Garcia,Pre-construction,2317000.0,2107600.0,-209400.0,90.96
+TT-PRJ-1002,Metro Line Expansion - Phase 2,Energy,David Chen,Close-out,3739000.0,3925600.0,186600.0,104.99
+TT-PRJ-1003,Luxury Residential Tower,Real Estate,Sarah Jenkins,Close-out,3260000.0,3180000.0,-80000.0,97.55
+TT-PRJ-1004,Green Energy Plant,Energy,Michael Wong,Close-out,4595000.0,4722800.0,127800.0,102.78
+TT-PRJ-1005,City Hospital Redevelopment,Infrastructure,Emma Taylor,Pre-construction,2416000.0,2375800.0,-40200.0,98.34
+TT-PRJ-1006,Data Center Construction,Real Estate,Robert Brown,Close-out,4643000.0,4812200.0,169200.0,103.64
+TT-PRJ-1007,Smart City Integrated Hub,Digital Solutions,Lisa Anderson,Pre-construction,2632000.0,2886200.0,254200.0,109.66
+TT-PRJ-1008,Airport Terminal Extension,Infrastructure,Kevin Lee,Construction,1368000.0,1272800.0,-95200.0,93.04
+TT-PRJ-1009,Public Library Refurbishment,Real Estate,Rachel Adams,Pre-construction,3579000.0,3632100.0,53100.0,101.48
